@@ -1,0 +1,21 @@
+{
+    "name": "brander/school",
+    "description": "Brander School test project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "practice/14_OOP"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Dolzhikov"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "8.1.5",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}

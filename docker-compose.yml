@@ -1,0 +1,26 @@
+version: '3.5'
+services:
+    php:
+        build: ./docker/php-fpm
+        container_name: lessons_php
+        volumes:
+            - ./:/var/www:cached
+
+    nginx:
+        build: ./docker/nginx
+        container_name: lessons_nginx
+        volumes:
+            - ./logs/nginx:/var/log/nginx:cached
+            - ./:/var/www:cached
+            - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+        ports:
+            - "80:80"
+        links:
+            - php
+    mysql:
+        image: mysql:8.0
+        container_name: lessons_mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+        ports:
+            - "3306:3306"

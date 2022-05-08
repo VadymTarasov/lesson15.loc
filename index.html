@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#addProductForm').submit(function (event) {
+                event.preventDefault();
+                let product = {
+                    'name': $("#addProductForm input[name='name']").val(),
+                    'price': $("#addProductForm input[name='price']").val(),
+                    'season': $("#addProductForm input[name='season']").val(),
+                };
+
+                // console.dir(JSON.stringify(product));
+                $.ajax({
+                    url: '/addProduct.php',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(product)
+                })
+                    .done(function() {
+                    alert( "second success" );
+                })
+                    .fail(function() {
+                        alert( "error" );
+                    })
+                    .always(function() {
+                        alert( "finished" );
+                    });
+
+            });
+        });
+    </script>
+</head>
+<body>
+<div>
+    <form id="addProductForm">
+        <label>Name</label><input type="text" name="name"></br>
+        <label>Price</label><input type="text" name="price"></br>
+        <label>Season</label><input type="text" name="season"></br>
+        <input type="submit">
+    </form>
+</div>
+</body>
+</html>

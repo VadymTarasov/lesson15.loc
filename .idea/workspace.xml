@@ -4,29 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="197e50ce-b13d-471e-b919-d53e82aa6744" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/createProduct.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_products_dump20220508.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/14_OOP/Exception/ProductBaseExclusion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/14_OOP/Exception/ProductDeleteException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/14_OOP/Exception/ProductUpdateException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/14_OOP/Repository/ProductInMySQLRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/showProducts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update.php" afterDir="false" />
+    <list default="true" id="197e50ce-b13d-471e-b919-d53e82aa6744" name="Changes" comment="Урок 15. ДЗ 12.">
+      <change afterPath="$PROJECT_DIR$/practice/14_OOP/Exception/ProductNotFoundException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/14_OOP/Exception/ProductAlreadyExsistException.php" beforeDir="false" afterPath="$PROJECT_DIR$/practice/14_OOP/Exception/ProductAlreadyExsistException.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/14_OOP/Repository/ProductInMemoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/practice/14_OOP/Repository/ProductInMemoryRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/14_OOP/Repository/ProductInMySQLRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/practice/14_OOP/Repository/ProductInMySQLRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +99,17 @@
       <workItem from="1652036289349" duration="2738000" />
       <workItem from="1652039153292" duration="1780000" />
       <workItem from="1652087458438" duration="8161000" />
-      <workItem from="1652105414216" duration="3582000" />
+      <workItem from="1652105414216" duration="4258000" />
+      <workItem from="1652182021005" duration="4138000" />
     </task>
+    <task id="LOCAL-00001" summary="Урок 15. ДЗ 12.">
+      <created>1652109124998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652109124998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Урок 15. ДЗ 12." />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 15. ДЗ 12." />
   </component>
 </project>

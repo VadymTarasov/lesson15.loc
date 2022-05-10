@@ -64,4 +64,13 @@ class ProductInMySQLRepository
         return $this->db->query("SELECT * FROM `db2`.`products` WHERE (`id` = '$id')");
 
     }
+    public function getAllIdProductsSQL(): array
+    {
+        $arr = [];
+        $allProductsId = $this->db->query("SELECT `id` FROM `db2`.`products`");
+        foreach ($allProductsId as $productId) {
+            $arr[] = $productId['id'];
+        }
+        return $arr;
+    }
 }

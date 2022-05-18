@@ -9,15 +9,22 @@ use App\Model\Product;
 use App\Repository\ProductInMemoryRepository;
 
 $price = new Price(1500);
-$product = new Product(1, "!Apple", $price, 'Summer');
+
+$test = $price->createFromString(1);
+
+
+$product = new Product(1, "Apple", $price, 'Summer');
+
+$product2 = $product->toArray();
+//debug($product2);
 
 $repository = new ProductInMemoryRepository();
 
-$repository->updateProduct($product);
+$repository->deleteProduct($product);
 
 
 try {
-    $repository->updateProduct($product);
+    $repository->deleteProduct($product);
 } catch (ProductBaseExclusion $e) {
     die($e->getMessage());
 }

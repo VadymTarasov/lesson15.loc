@@ -25,10 +25,9 @@ class PriceTest extends TestCase
         $this->assertEquals(null, $this->price->__construct(1500));
     }
 
-//???
     public function testCreateFromString()
     {
-        $this->assertEquals(Price::createFromString(1), $this->price->CreateFromString(1));
+        TestCase::assertEquals('100', Price::createFromString('100'));
     }
 
 }

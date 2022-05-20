@@ -80,12 +80,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "82ca75f0b1f130f018febdda29af13086da5dbac"
+                "reference": "b720a2d0ff4a135ee0ef542082b2b979ff1f1d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/82ca75f0b1f130f018febdda29af13086da5dbac",
-                "reference": "82ca75f0b1f130f018febdda29af13086da5dbac",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b720a2d0ff4a135ee0ef542082b2b979ff1f1d14",
+                "reference": "b720a2d0ff4a135ee0ef542082b2b979ff1f1d14",
                 "shasum": ""
             },
             "require": {
@@ -111,7 +111,7 @@
                 "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
-            "time": "2022-03-20T14:21:21+00:00",
+            "time": "2022-05-16T15:07:31+00:00",
             "default-branch": true,
             "type": "library",
             "extra": {

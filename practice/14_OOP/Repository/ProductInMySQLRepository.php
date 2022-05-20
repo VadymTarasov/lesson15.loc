@@ -11,7 +11,7 @@ class ProductInMySQLRepository
 
 
     private PDO $db;
-    private string $server = "mysql:dbname=db;host=127.0.0.1";
+    private string $server = "mysql:dbname=db2;host=127.0.0.1";
     private string $username = "root";
     private string $password = "";
 

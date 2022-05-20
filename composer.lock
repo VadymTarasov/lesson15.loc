@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee92d6e3284068c509f89bb3bce7870b",
+    "content-hash": "1bfc2380ad9e8e423e7b9f30f353d28b",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "82ca75f0b1f130f018febdda29af13086da5dbac"
+                "reference": "b720a2d0ff4a135ee0ef542082b2b979ff1f1d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/82ca75f0b1f130f018febdda29af13086da5dbac",
-                "reference": "82ca75f0b1f130f018febdda29af13086da5dbac",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b720a2d0ff4a135ee0ef542082b2b979ff1f1d14",
+                "reference": "b720a2d0ff4a135ee0ef542082b2b979ff1f1d14",
                 "shasum": ""
             },
             "require": {
@@ -129,7 +129,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-20T14:21:21+00:00"
+            "time": "2022-05-16T15:07:31+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -2314,7 +2314,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "phpunit/phpunit": 20
+        "phpunit/phpunit": 20,
+        "phpunit/php-code-coverage": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

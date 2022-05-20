@@ -2,7 +2,6 @@
 
 require_once './vendor/autoload.php';
 require_once 'dd.php';
-
 use App\Exception\ProductBaseExclusion;
 use App\Model\Price;
 use App\Model\Product;

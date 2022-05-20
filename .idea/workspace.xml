@@ -4,25 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="197e50ce-b13d-471e-b919-d53e82aa6744" name="Changes" comment="Урок 15. ДЗ 12.">
-      <change afterPath="$PROJECT_DIR$/Tests/14_OOP/Model/PriceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/14_OOP/Model/ProductTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bin/php-parse" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bin/phpunit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lesson15.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lesson15.loc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="197e50ce-b13d-471e-b919-d53e82aa6744" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/0298b70de57e3ff32a284ac020062bf689584979df08c98c3191bdcd4ae32a8a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/094e211b18cfeac44640e071ddaa6f0b4b15943f1fa602512dfa2d86e56547d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/145e661d34bf685047517d6a27fab11a5224fc16611ec9940c2334d503f727ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/1bc5222ddd2a4ccc8dbf96a6e5895e974ccdcd9c0d56e1ea468272e00b3e6a90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/27befa669e60cde59b70f60382714676fc280b2e31b043b500b2e06ea5c9208f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/2ae066049a56b5c9f83229b82f3b9133fa638e84e174769ec0d919789306aafd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/3f45ecfded9e2141a8fd540557645b9b11a94a9c1689409fa6b77c02b417ed21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/59c32e3ebdc73f9a3396d7ad44660712d2a10c4a0b20dbfec0fb8060e93ce4ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/724f4faf478ade9d3abb8bc820b62eab64e967b2c2c29e2d90b49abd0ee365a5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/c5f2284722378fbef638f950faace5f7f40ee9c6ee8b0dc788f0fa8d6d08ba82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/e10606fe689ef4d40a38e4b47eca0a8e3deed557b6b95bada83ed5682b5d908c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/test-results" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Exception/ProductAlreadyExsistException.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Exception/ProductBaseExclusion.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Exception/ProductDeleteException.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Exception/ProductNotFoundException.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Exception/ProductUpdateException.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Exception/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Exception/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Model/Price.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Model/Product.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Model/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Model/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Repository/ProductInMemoryRepository.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Repository/ProductInMySQLRepository.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Repository/ProductRepositoryInterface.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Repository/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/Repository/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_css/nv.d3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_css/octicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_icons/file-code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_icons/file-directory.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_js/d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_js/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_js/nv.d3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/_js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.php.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/14_OOP/Model/PriceTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/14_OOP/Model/ProductTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +77,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,20 +126,23 @@
     </include_path>
   </component>
   <component name="ProjectId" id="28sTTdocVad3ISnPzsdOF6pqwND" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary": "PHPUnit",
-    "last_opened_file_path": "/var/www/lessons.loc",
+    "last_opened_file_path": "/var/www/my.loc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -130,6 +170,17 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/practice/14_OOP" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PriceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Model\PriceTest" file="$PROJECT_DIR$/practice/14_OOP/Model/PriceTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.PriceTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -162,6 +213,7 @@
       <workItem from="1652717689731" duration="185000" />
       <workItem from="1652798340070" duration="2534000" />
       <workItem from="1652804709621" duration="37000" />
+      <workItem from="1653058438201" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="Урок 15. ДЗ 12.">
       <created>1652109124998</created>
@@ -177,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652186305949</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1653059129235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653059129235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +254,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Урок 15. ДЗ 12." />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 15. ДЗ 12." />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

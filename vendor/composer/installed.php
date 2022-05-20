@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8d7412b039644c29a2b928daef983a3b75afb684',
+        'reference' => 'a9dc9c6dd1cb90e53b644d90174ae3c2a59a89b9',
         'name' => 'brander/school',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8d7412b039644c29a2b928daef983a3b75afb684',
+            'reference' => 'a9dc9c6dd1cb90e53b644d90174ae3c2a59a89b9',
             'dev_requirement' => false,
         ),
         'doctrine/instantiator' => array(
@@ -36,7 +36,7 @@
             'aliases' => array(
                 0 => '7.4.x-dev',
             ),
-            'reference' => '82ca75f0b1f130f018febdda29af13086da5dbac',
+            'reference' => 'b720a2d0ff4a135ee0ef542082b2b979ff1f1d14',
             'dev_requirement' => false,
         ),
         'guzzlehttp/promises' => array(

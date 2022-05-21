@@ -5,6 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="197e50ce-b13d-471e-b919-d53e82aa6744" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/35b71fe4b3d620344a08957b2a2d5aeab1fa6e56b8983b1f9f6c94996f423998" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/4c9d4c5891c7d90b124f5625f2d8a02b5b70be771eba16d189991dd695bad9f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/9fb045278daab9bec5b9421167445d0d99a8e306f1aabad47c7c62d415e8db3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/a5ec116dd4ebe254e1a25671e92e43d81e833a00432de8765c78fc74fa7cb38d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/abd9bf39ec9680363452a18e92ffd76cdde63922a5e97ddad63f0fd479e34fe1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/baf094a67438cb1a4108ce8cad842d889cd702e4551f4ae3f2ac29446823949c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/c28d998c6125a705521c91c13e651f7bbbaa7a0cddc563f6664dccff86c81eda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/c9b0a59c780a29c8b6f1f8c4382cb49347325ae0644c8dd4af4428d20b2c5529" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/efa5191750b3cedbf326af96d7397eb5ecf2d3fcd4dbf0bcd62bc090a6ce9613" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.phpunit.cache/code-coverage/fe12d61714c3427d30d49ce6b5c12e55816b923273d86a4a9830c4dbf3a1a04d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/14_OOP/Repository/ProductInMemoryRepositoryTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.cache/test-results" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.cache/test-results" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/Exception/ProductAlreadyExsistException.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Exception/ProductAlreadyExsistException.php.html" afterDir="false" />
@@ -26,6 +37,7 @@
       <change beforePath="$PROJECT_DIR$/html/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/14_OOP/Repository/ProductInMemoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/practice/14_OOP/Repository/ProductInMemoryRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,30 +114,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary&quot;: &quot;PHPUnit&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/var/www/lessons.loc&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary": "PHPUnit",
+    "last_opened_file_path": "/var/www/my.loc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Tests" />
@@ -184,6 +196,8 @@
       <workItem from="1652804709621" duration="37000" />
       <workItem from="1653058438201" duration="4793000" />
       <workItem from="1653063620854" duration="20000" />
+      <workItem from="1653064072874" duration="775000" />
+      <workItem from="1653152789555" duration="6186000" />
     </task>
     <task id="LOCAL-00001" summary="Урок 15. ДЗ 12.">
       <created>1652109124998</created>
@@ -220,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653063023344</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1653064420158</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653064420158</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

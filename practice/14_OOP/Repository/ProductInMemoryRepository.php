@@ -44,15 +44,6 @@ class ProductInMemoryRepository implements ProductRepositoryInterface
 
     public function updateProduct(Product $product): void
     {
-        $getId = new \App\Repository\ProductInMySQLRepository();
-        $id = $getId->getAllIdProductsSQL();
-
-        if (array_key_exists($product->getId(), $this->products)
-            && !array_search($product->getId(), $id)) {
-
-            throw new ProductNotFoundException;
-        }
-        $this->products[$product->getId()] = $product;
 
 
         if (array_key_exists($product->getName(), $this->products) && strpbrk($product->getName(), "!@#$%^&*/") ) {
@@ -61,18 +52,17 @@ class ProductInMemoryRepository implements ProductRepositoryInterface
         }
         $this->products[$product->getName()] = $product;
 
+        if (array_key_exists(!$product->getId(), $this->products)) {
+            throw new ProductNotFoundException;
+        }
+
+        $this->products[$product->getId()] = $product;
+
     }
 
     public function deleteProduct(Product $product): void
     {
-        $getId = new \App\Repository\ProductInMySQLRepository();
-        $id = $getId->getAllIdProductsSQL();
 
-        if (array_key_exists($product->getId(), $this->products)
-            && !array_search($product->getId(), $id)) {
-
-            throw new ProductNotFoundException;
-        }
 
         if (array_key_exists($product->getId() == 1, $this->products)) {
 
@@ -81,6 +71,11 @@ class ProductInMemoryRepository implements ProductRepositoryInterface
 
         $this->products[$product->getId()] = $product;
 
+        if (array_key_exists(!$product->getId(), $this->products)) {
+            throw new ProductNotFoundException;
+        }
+
+        $this->products[$product->getId()] = $product;
     }
 }
 
